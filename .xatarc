@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://STP-Zoom-s-workspace-8tgp3n.ap-southeast-2.xata.sh/db/xata-next-auth",
+  "codegen": {
+    "output": "lib/xata.ts"
+  }
+}
