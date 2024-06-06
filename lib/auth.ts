@@ -6,7 +6,7 @@ import { getXataClient } from "./xata";
 const xata = getXataClient();
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
-  //adapter: XataAdapter(xata),
+  adapter: XataAdapter(xata),
   pages: { signIn: "/signin" },
   providers: [
     Credentials({
